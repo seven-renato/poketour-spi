@@ -1,0 +1,274 @@
+*{ /* asterisco vai para todos os elementos*/
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; /*sempre q usar altura e largura, a caixa vai sempre contar o tamanho pela borad se ajustar, calculo do tamanho da caixa*/
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+body, html{
+    height: 100%;
+    width: 100%;
+  }
+
+body {
+    background-color: #222224;
+    text-align: justify
+}
+
+h2,h3 {
+    margin-bottom: 15px;
+}
+.centralizar {
+    width: 100%;
+    height: 100%;
+    margin: auto;
+}
+
+nav {
+    display: flex; 
+    justify-content: space-around;
+    flex-direction: row;
+    align-items:center;
+    background-color: #dc304d;
+    box-sizing:border-box;
+    padding: 20px;
+    min-height: 8vh; /* aaaaaaaaa e isso*/
+}
+
+.nav-list {
+    margin-left: 50px;
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+    gap: 32px;
+
+}
+
+.nav-list li {
+    letter-spacing: 3px;
+}
+
+#logo-nav {
+    height: 80px;
+    width: 115px;
+    display: flex;
+}
+nav a{
+    text-decoration: none;
+    color: #fff;
+}
+
+a {
+    text-decoration: none;
+    transition: 0.3s;
+    font-size: 20px;
+}
+
+a:hover {
+    opacity: 0.7;
+}
+
+.container {
+    height: flex; /* altura de 100 da pag*/
+    margin: auto;
+    width: 1000px;
+    background-color: #f0f0f0;
+    padding: 60px;
+    max-width: 1000px;
+    overflow: hidden;
+    box-sizing:border-box;
+}
+
+h1,h2 {
+    margin-bottom: 15px;
+    margin-top: 20px;
+}
+
+
+p {
+    margin-top: 10px;
+    font-size: 20px;
+}
+
+
+.pokedex p {
+    text-indent: 30px;
+}
+.pokedex {
+    justify-content: space-around;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    margin: auto;
+}
+
+.tabela-poke {
+    border-radius: 20px;
+    color: #fff;
+    margin-left: 60px;
+    padding-top: 20px;
+    background-color: #f0f0f0;
+
+}
+
+
+.poke-tr {
+    font-size: 15px;
+    background-color: #eb556e;
+}
+
+.pokedex img {
+    height: 40px;
+    width: 45px;
+}
+
+.passaram {
+    background-image: url(https://4.bp.blogspot.com/-yFaIGfsSuuY/WZoBHieMGbI/AAAAAAAAAOY/CBoQbFYsILY8Rl0ZOGv-rsiHPipYa88nwCLcBGAs/s1600/legendary_trio___articuno__zapdos_and_moltres_by_juz_dream-d9ts78q-890x606.jpg);
+    box-sizing: border-box; 
+    width: 100%;
+    height: 500px;
+    margin: auto;
+    background-size: cover;
+    text-indent: 30px;
+}
+
+.fav {
+    margin-top: 40px;
+    box-sizing: border-box; 
+    width: 100%;    
+    text-indent: 15px;
+
+}
+
+.poke-fav {
+    margin-left: 20px;
+    width: 420px;
+    margin-right: 70px;
+}
+
+.poke_fav{
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+    padding: 3.7px;
+    margin-left: 10px;
+}
+
+#blue {
+    border: #5c5cd7 solid 4px;
+}
+
+#red {
+    border: #dc304d solid 4px;
+}
+.tipos p {
+    text-indent: 30px;
+}
+.foto-tipos {
+    background-image: url(https://pbs.twimg.com/media/E-IOUGKXsAYw5m8?format=jpg&name=large);
+    box-sizing: border-box; 
+    width: 100%;
+    height: 550px;
+    margin: auto;
+    background-size: cover;
+}
+
+.pokeball p{
+    text-indent: 30px;
+}
+
+.pokeball li {
+    list-style: none;
+    text-indent: 0px;
+}
+
+.pokeball {
+    margin-top: 20px;
+    height: 100%;
+    width: 100%;
+    object-fit: contain;
+    margin-bottom: 50px;
+}
+
+.img-poke {
+    height:100%;
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+#red-l {
+    color: #dc304d;
+}
+
+#blue-l {
+    color: rgb(66, 66, 243);
+}
+
+#yellow-l {
+    color: rgb(226, 182, 70);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+footer .baixar {
+    display: flex; 
+    flex-direction: row;
+    align-items:center;
+    justify-content: space-around;
+    background-color: #dc304d;
+    box-sizing:border-box;
+    padding: 20px;
+    min-height: 20vh; /* aaaaaaaaa e isso*/
+    color: white;
+}
+
+.foot-list {
+    margin-left: 0px;
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+    gap: 10px;
+
+}
+
+#logo-app-footer {
+    height: 50px;
+    width:50px;
+    display: flex;
+    border-radius: 20px;
+}
+
+.download {
+    gap: 20px;
+    margin-left: 30px;
+}
+
+.right {
+    margin-left: 80px;
+    display: flex;
+    gap: 20px;
+    flex-direction: row;
+    align-items:center;
+}
+
+footer a {
+    border-radius: 20px;
+}
+
+.teamys {
+    font-size: 18px;
+    color: #222224;
+}
